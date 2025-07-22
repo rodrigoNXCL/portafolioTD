@@ -1,0 +1,13 @@
+body {
+  background-color: #f8f9fa;
+}
+h2 {
+  color: #145388;
+}
+footer {
+  margin-top: 40px;
+}
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}

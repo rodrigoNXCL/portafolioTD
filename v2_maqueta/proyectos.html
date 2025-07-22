@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Mis Proyectos | Portafolio RC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+  <!-- Navbar igual que en index.html -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">RC Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="habilidades.html">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección de proyectos -->
+  <main class="container my-5">
+    <h2 class="mb-4">Mis Proyectos</h2>
+
+    <!-- Card de ejemplo de proyecto -->
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+          <div class="card-body">
+            <h5 class="card-title">Landing Page Servicios Profesionales</h5>
+            <p class="card-text">Diseño y desarrollo de una página web responsive para promocionar servicios. Realizada como parte del módulo 2 del bootcamp.</p>
+            <span class="badge bg-info">HTML</span>
+            <span class="badge bg-warning text-dark">CSS</span>
+            <span class="badge bg-success">Bootstrap</span>
+          </div>
+        </div>
+      </div>
+      <!-- Agrega más tarjetas según avances -->
+    </div>
+  </main>
+
+  <footer class="bg-primary text-white text-center py-3">
+    <small>&copy; 2025 Rodrigo Chandía Cerna</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
