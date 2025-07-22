@@ -1,0 +1,19 @@
+body {
+  background-color: #f8f9fa;
+}
+h2 {
+  color: #145388;
+}
+footer {
+  margin-top: 40px;
+}
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+.card-img-top {
+  object-fit: cover;
+  height: 220px;  /* Puedes ajustar este valor a 180, 200 o lo que prefieras */
+  width: 70%;
+  border-radius: 0.5rem 0.5rem 0 0; /* redondeo igual al card si lo usas */
+}
