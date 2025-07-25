@@ -1,5 +1,5 @@
 -- AE3_ABP – Consultas y operaciones para base de datos de clientes y pedidos
--- Autor: [Tu nombre]
+-- Autor: Rodrigo Chandia
 
 -- 1. CREACIÓN DE TABLAS
 
